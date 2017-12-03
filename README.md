@@ -2,8 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
 
-
-## Notes for Guillaume
+## Notes
 
 I just had the time to develop the MVP requested, this could be improved by adding paging, configure number rows per page, etc...
 Even for the solution developped, you'll see that i put all my data in the controller (i should have used a service for this)
