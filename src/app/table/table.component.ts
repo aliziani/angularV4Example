@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-
-import {TableConfiguration) from './tableConfiguration';
+import {TableConfiguration} from './tableConfiguration';
 
 @Component({
   selector: 'datatable',
