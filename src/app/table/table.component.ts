@@ -7,8 +7,15 @@ import {TableConfiguration} from './tableConfiguration';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent {
-  @Input() configuration: TableConfiguration
-  
+  @Input() configuration: TableConfiguration;
+
+  constructor() {
+  }
+
+  ngOnInit() {
+
+  }
+
   ngOnChanges(){
 	  // useful for the filter
 	  this.headerAttributes = this.configuration.header.map(h => h.attributeName);
