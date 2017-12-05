@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { TableComponent } from './table.component';
-import {TableSearchPipe) from './tableSearch.pipe';
+import {TableSearchPipe} from './tableSearch.pipe';
 
 @NgModule({
   declarations: [

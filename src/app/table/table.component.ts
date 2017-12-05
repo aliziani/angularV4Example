@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import {TableConfiguration} from './tableConfiguration';
-
 @Component({
   selector: 'datatable',
   templateUrl: './table.component.html',
@@ -8,14 +7,6 @@ import {TableConfiguration} from './tableConfiguration';
 })
 export class TableComponent {
   @Input() configuration: TableConfiguration;
-
-  constructor() {
-  }
-
-  ngOnInit() {
-
-  }
-
   ngOnChanges(){
 	  // useful for the filter
 	  this.headerAttributes = this.configuration.header.map(h => h.attributeName);
